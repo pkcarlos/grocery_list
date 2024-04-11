@@ -1,0 +1,74 @@
+/* Set the background color of the page */
+body {
+  background-color: #fff6e0; /* Light yellow background */
+  margin: 0;
+  font-family: Arial, sans-serif; /* Use Arial font */
+}
+
+/* Style the form container */
+div:first-child {
+  float: left; /* Align form to the left side */
+  width: 25%; /* Set width to 25% of the page */
+  padding: 20px;
+}
+
+/* Style the grocery list container */
+div:last-child {
+  float: right; /* Align grocery list to the right side */
+  width: 70%; /* Set width to 70% of the page */
+  padding: 20px;
+  border: 2px solid #ffc0cb; /* Pink border around the grocery list */
+  border-radius: 10px; /* Rounded corners */
+  max-height: calc(100vh - 160px); /* Set maximum height to fit within the viewport with considerable padding */
+  overflow-y: auto; /* Add vertical scrollbar if needed */
+  margin-top: 80px; /* Add considerable margin/padding between form and grocery list */
+}
+
+/* Style the h1 elements */
+h1 {
+  font-size: 24px; /* Larger font size */
+  text-align: center; /* Center-align h1 elements */
+}
+
+/* Style the form labels */
+label {
+  display: block; /* Display labels as block elements */
+  margin-bottom: 5px; /* Add space below labels */
+}
+
+/* Style the form inputs */
+input[type="text"], input[type="submit"] {
+  width: 100%; /* Make inputs fill the container */
+  padding: 10px; /* Add padding */
+  margin-bottom: 10px; /* Add space between inputs */
+  border: 1px solid #ffc0cb; /* Pink border */
+  border-radius: 5px; /* Rounded corners */
+}
+
+input[type="submit"] {
+  background-color: #ff69b4; /* Hot pink submit button */
+  color: white; /* White text color */
+  cursor: pointer; /* Show pointer on hover */
+}
+
+input[type="submit"]:hover {
+  background-color: #ff1493; /* Darker pink on hover */
+}
+
+/* Style the grocery list items */
+ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;
+}
+
+ul li {
+  font-size: 18px; /* Larger font size for list items */
+  margin-bottom: 5px; /* Add space between list items */
+}
+
+/* Add images/clipart of grocery items */
+img {
+  width: 20px; /* Set width of images */
+  height: 20px; /* Set height of images */
+  margin-right: 5px; /* Add space to the right of images */
+}
